@@ -1,5 +1,11 @@
 #![allow(non_snake_case)]
-#![doc(include = "../../docs/range-proof-protocol.md")]
+
+// FIXME
+// 2 | #![doc(include = "../../docs/range-proof-protocol.md")]
+//  |                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ couldn't read file
+//  |
+//  = help: external doc paths are relative to the crate root
+//#![doc(include = "../../docs/range-proof-protocol.md")]
 
 extern crate alloc;
 #[cfg(feature = "std")]
